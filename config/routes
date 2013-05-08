@@ -1,3 +1,5 @@
 /static StaticR Static getStatic
 
 /robots.txt RobotsR GET
+
+/resolve/#String ResolveR GET

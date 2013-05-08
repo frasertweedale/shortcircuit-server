@@ -1,0 +1,14 @@
+shortcircuit-server: URL redirect resolver
+==========================================
+
+URL shortening services can track you when you hit their servers to
+resolve URLs.  Certain large social networking and social media
+companies are particularly devious and create short URLs for all
+links posted on or through their service.
+
+`shortcircuit-server` is a server that resolves URLs on behalf of
+clients, mitigating some of the privacy issues surrounding URL
+shortening.  It is envisioned that browser plugins and libraries for
+other kinds of web clients will be able to talk to a shortcircuit
+server and avoid resolving short URLs through the provider's own
+servers.
